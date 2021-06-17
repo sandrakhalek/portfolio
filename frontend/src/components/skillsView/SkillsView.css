@@ -1,0 +1,182 @@
+.skill .svg-rect {
+    width: 75%;
+}
+
+.skill-header {
+    font-size: 3.5rem;
+}
+
+.title-div.skill {
+    margin-left: -2%;
+}
+
+.skill svg.svg-rect {
+    height: 30%;
+}
+
+.skill-row {
+    text-align: center;
+    margin-top: 1.5%;
+    color: black;
+}
+
+.skill-type {
+    color: #b24c63;
+    height: 20%;
+    font-weight: bolder;
+}
+
+.skill-name {
+    margin-top: 7px;
+    background-color: #e4afb0;
+    list-style: none;
+    padding: 15px;
+    text-align: center;
+    border-radius: 42px;
+}
+
+.skill-list {
+    padding: 0;
+}
+
+.list-x {
+    float: right;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.skill-row .row {
+    margin-left: 3%;
+}
+
+.form-control {
+    border-radius: 8px;
+}
+
+.search-box {
+    width: auto;
+    padding-left: 35px;
+    margin-left: 40%;
+}
+
+.bxs-add-to-queue {
+    position: absolute;
+    margin-left: 25%;
+    color: #b24c63;
+    margin-top: 8px;
+}
+
+.bx-search {
+    display: inline-block;
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 37.5%;
+    margin-right: 20%;
+}
+
+.add-btn {
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+.add-btn:focus {
+    border: none;
+    outline: none;
+}
+
+.modal-body form {
+    padding: 0;
+}
+
+.btn-btn-primary {
+    background-color: #b24c63;
+    border-color: transparent;
+    color: #fff;
+}
+
+.btn-btn-secondary {
+    background-color: transparent;
+    color: #b24c63;
+    border-color: #b24c63;
+}
+
+@media screen and (max-width: 1199px) {
+    .skill-header {
+        font-size: 3rem;
+    }
+    .skill .svg-rect {
+        width: 100%;
+    }
+    .search-box {
+        margin-left: 5%;
+        margin-top: -10%;
+    }
+    .bxs-add-to-queue {
+        margin-left: 0;
+        margin-top: -9%;
+    }
+    .bx-search {
+        margin-top: -6.5%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 771px) {
+    .skill-header {
+        font-size: 3rem;
+    }
+    .skill .svg-rect {
+        width: 100%;
+    }
+    .search-box {
+        margin-left: 10%;
+        /* margin-top: -17%; */
+    }
+    .bxs-add-to-queue {
+        margin-left: 0;
+        margin-top: -15%;
+    }
+    .bx-search {
+        margin-top: -10.5%;
+        margin-left: 9%;
+    }
+}
+
+@media screen and (max-width: 671px) {
+    .skill-header {
+        font-size: 2.5rem;
+    }
+    .search-box {
+        margin-left: 10%;
+        margin-top: -20%;
+    }
+    .bxs-add-to-queue {
+        margin-top: -18%;
+    }
+    .bx-search {
+        margin-top: -13%;
+        margin-left: 9%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .skill-header {
+        font-size: 2rem;
+    }
+    .skill svg.svg-rect {
+        height: 20px;
+    }
+    .search-box {
+        margin-left: 15%;
+        margin-top: -5%;
+    }
+    .bxs-add-to-queue {
+        margin-top: -3%;
+    }
+    .bx-search {
+        margin-top: 3%;
+        margin-left: 14%;
+    }
+}

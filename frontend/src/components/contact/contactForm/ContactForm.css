@@ -1,0 +1,28 @@
+#sendBtn {
+    background: none;
+    border: none;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+#sendBtn::before {
+    content: "";
+    position: absolute;
+    left: 11%;
+    bottom: 16%;
+    width: 56px;
+    height: 56px;
+    display: block;
+    border-radius: 28px;
+    background: rgba(178, 76, 99, 0.4);
+    z-index: -1;
+    transition: all 0.5s ease;
+}
+
+#sendBtn:hover::before {
+    width: 20%;
+}
+
+#sendBtn:focus {
+    outline: none;
+}

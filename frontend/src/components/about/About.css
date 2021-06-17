@@ -1,0 +1,37 @@
+.about-body {
+    margin-bottom: 5%;
+}
+
+.about-img {
+    margin-top: 2%;
+}
+
+.about-parag {
+    text-align: left;
+    padding-right: 42%;
+    text-align: justify;
+}
+
+.personal-contact {
+    padding-left: 26%;
+}
+
+@media screen and (max-width: 771px) {
+    .about-img {
+        width: 100%;
+    }
+    .about-parag {
+        padding-right: 30%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .about-parag-div {
+        margin-left: 15%;
+        margin-bottom: 10%;
+    }
+    .personal-contact {
+        padding-left: 0;
+        margin-left: 16%;
+    }
+}

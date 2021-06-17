@@ -1,0 +1,245 @@
+a.nav-link.padding-right.hoverbale {
+    padding-right: 4.5rem;
+}
+
+a.nav-link.padding-right.hoverbale.nav-active {
+    color: #b24c63;
+    font-size: large;
+}
+
+.second-title {
+    font-size: 80px;
+}
+
+#container {
+    height: 15%;
+    margin-bottom: 3%;
+    display: inline-block;
+    vertical-align: middle;
+    color: #b24c63;
+    font-size: 60px;
+}
+
+.title-div {
+    margin-top: 6%;
+    height: auto;
+    padding-left: 5%;
+    position: sticky;
+    letter-spacing: 3px;
+}
+
+.home-row {
+    height: 500px;
+}
+
+#line-svg {
+    height: 5px;
+    padding-left: 2%;
+}
+
+a.nav-link.hoverbale:hover,
+.contact-info {
+    color: #b24c63;
+    font-size: large;
+}
+
+.center {
+    text-align: center;
+}
+
+.d-block {
+    margin-left: 25%;
+}
+
+figure img {
+    border-radius: 2%;
+}
+
+.download-cv i,
+.explore i {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.5s ease;
+    font-weight: bold;
+}
+
+.explore i {
+    padding-right: 20px;
+}
+
+.download-cv i {
+    padding-left: 10px;
+}
+
+.download-cv:hover i {
+    left: 5px;
+}
+
+.explore:hover i {
+    left: 10px;
+}
+
+.download-cv,
+.explore {
+    position: relative;
+    margin: auto;
+    border-radius: 28px;
+    transition: all 0.5s ease;
+}
+
+.explore {
+    font-size: xx-large;
+    margin-left: 5%;
+}
+
+.download-cv {
+    padding: 19px 22px;
+    font-weight: bold;
+}
+
+.download-cv::before,
+.explore::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 56px;
+    height: 56px;
+    display: block;
+    border-radius: 28px;
+    background: rgba(178, 76, 99, 0.4);
+    z-index: -1;
+    transition: all 0.5s ease;
+}
+
+.explore::before {
+    width: 90px;
+    height: 90px;
+    top: -25px;
+    left: -31px;
+    border-radius: 50px;
+}
+
+.download-cv:hover::before,
+.explore:hover::before {
+    width: 100%;
+    background: rgba(178, 76, 99, 0.5);
+}
+
+.explore:hover::before {
+    width: 125%;
+}
+
+.download-cv:hover,
+#sendBtn:hover {
+    font-size: large;
+}
+
+.download-cv:hover,
+.explore:hover,
+#sendBtn:hover {
+    text-decoration: none;
+}
+
+.svg-rect rect,
+.project-svg-rect rect,
+.project-desc-svg-rect rect {
+    fill: rgba(178, 76, 99, 0.5);
+    z-index: 1;
+}
+
+.svg-rect {
+    margin-top: -50px;
+    width: 100%;
+}
+
+.project-svg-rect {
+    margin-top: -30px;
+    text-align: center;
+    width: 95%;
+}
+
+.about-subheader {
+    margin-top: -100px;
+}
+
+.about-header {
+    font-size: 76px;
+    font-weight: bold;
+}
+
+.contact-info-section {
+    margin-top: 30%;
+}
+
+.contact-info-section a,
+.contact-info-section a:hover {
+    color: inherit;
+}
+
+form {
+    padding: 16% 10%;
+}
+
+.letter-spacing {
+    letter-spacing: 5px;
+}
+
+.send-btn:hover {
+    letter-spacing: 1px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("./assets/images/coffee-bg.svg");
+    /* Set a specific height */
+    min-height: 700px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-bg-text {
+    margin-left: 56%;
+    padding-top: 15%;
+}
+
+.project-desc-section {
+    padding: 60px 400px 0px;
+}
+
+.project-desc-svg-rect {
+    margin-top: -30px;
+    width: 50%;
+}
+
+.project-desc-section p {
+    text-align: left;
+    margin-top: -100px;
+}
+
+#coffee-cups,
+#logo-desc {
+    margin-left: -18%;
+}
+
+#coffee-mug {
+    z-index: 2;
+    margin-top: -120px;
+    margin-left: 50%;
+}
+
+#logo {
+    z-index: 2;
+    margin-top: -120px;
+    margin-left: 70%;
+}
+
+
+/* .carousel-control-next,
+.carousel-control-prev {
+    display: none;
+} */

@@ -1,0 +1,28 @@
+.hoverbale:hover {
+    color: #b24c63;
+}
+
+.cursor {
+    cursor: none;
+    position: fixed;
+    border-radius: 50%;
+    pointer-events: none;
+    height: 36px;
+    width: 36px;
+    z-index: 100;
+}
+
+.cursor.hover {
+    transform: scale(2) translateX(-25%) translateY(-25%);
+    border: none;
+    background: #02020215;
+    box-shadow: 0 0 14px #a75f6f;
+}
+
+.cursor #cursor-text {
+    font-size: x-small;
+    position: relative;
+    vertical-align: middle;
+    margin-left: 10%;
+    display: none;
+}

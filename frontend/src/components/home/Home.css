@@ -1,0 +1,40 @@
+#avatar {
+    margin-top: 20%;
+    height: 100%;
+}
+
+.avatar-div {
+    height: 100%;
+}
+
+@media screen and (max-width: 720px) {
+    .second-title {
+        font-size: 60px;
+    }
+    #container {
+        font-size: 40px;
+    }
+    .explore {
+        font-size: x-large;
+    }
+    .explore::before {
+        width: 60px;
+        height: 60px;
+        top: -15px;
+        left: -21px;
+        border-radius: 50px;
+    }
+    #avatar {
+        height: 238px;
+        margin-top: -30%;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 961px) {
+    #avatar {
+        height: 30%;
+        margin-top: -30%;
+        float: right;
+    }
+}
