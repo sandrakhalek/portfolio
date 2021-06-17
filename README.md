@@ -17,7 +17,7 @@ A _skills_ section was included for the user to add, delete or search for a skil
 ## To Use Template
 
 - Run `yarn install` or `npm install` to install the dependencies.
-- Run `cd react-app; yarn start` or `cd react-app; npm start` to start front end development server.
+- Run `cd frontend; yarn start` or `cd frontend; npm start` to start front end development server.
 - Run `cd backend; yarn start` or `cd backend; npm start` to start back end development server.
 - Run `yarn build` to build the app for production to the `build` folder.
 
@@ -29,7 +29,7 @@ A _skills_ section was included for the user to add, delete or search for a skil
     |-- models,
     |-- routes,
 
-|-- react-app,
+|-- frontend,
     |-- public,
         |-- ressources,
     |-- src,
@@ -42,12 +42,12 @@ A _skills_ section was included for the user to add, delete or search for a skil
 - `/backend/controllers` for MVC controlers
 - `/backend/models` for MVC models
 - `/backend/routes` for express routes
-- `/react-app` contains all the frontend
-- `/react-app/public` for public files
-- `/react-app/public/ressources` for used ressources
-- `/react-app/src` for all source files
-- `/react-app/src/assets` for assets files (fonts, .png, .svg.. )
-- `/react-app/src/components` contains a folder of each component with `.ts` and `.css` files.
+- `/frontend` contains all the frontend
+- `/frontend/public` for public files
+- `/frontend/public/ressources` for used ressources
+- `/frontend/src` for all source files
+- `/frontend/src/assets` for assets files (fonts, .png, .svg.. )
+- `/frontend/src/components` contains a folder of each component with `.ts` and `.css` files.
 
 ## Demo
 
