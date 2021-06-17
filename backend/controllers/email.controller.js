@@ -4,7 +4,7 @@ const contactEmail = nodemailer.createTransport({
     service: "Outlook365",
     auth: {
         user: "sandrakhalek@hotmail.com",
-        pass: "123thiAbc456dergkLL9",
+        pass: "password",
     },
 });
 
