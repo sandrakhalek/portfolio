@@ -17,8 +17,9 @@ A _skills_ section was included for the user to add, delete or search for a skil
 ## To Use Template
 
 - Run `yarn install` or `npm install` to install the dependencies.
-- Run `cd frontend; yarn start` or `cd frontend; npm start` to start front end development server.
+- 
 - Run `cd backend; yarn start` or `cd backend; npm start` to start back end development server.
+- Run `cd frontend; yarn start` or `cd frontend; npm start` to start front end development server.
 - Run `yarn build` to build the app for production to the `build` folder.
 
 ## Structure
