@@ -52,6 +52,6 @@ A _skills_ section was included for the user to add, delete or search for a skil
 
 ## Demo
 
-<a href="sandrakhalek.com">Click Here</a>
+<a href="google.com" target=_blank >Click Here</a>
 
 **Note: The projects has minor bugs that are getting fixed and published soon.**
