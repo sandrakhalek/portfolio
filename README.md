@@ -52,6 +52,6 @@ A _skills_ section was included for the user to add, delete or search for a skil
 
 ## Demo
 
-Comming soon..
+<a href="sandrakhalek.com">Click Here</a>
 
 **Note: The projects has minor bugs that are getting fixed and published soon.**
