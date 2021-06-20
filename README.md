@@ -51,6 +51,6 @@ A _skills_ section was included for the user to add, delete or search for a skil
 - `/frontend/src/components` contains a folder of each component with `.ts` and `.css` files.
 
 ## Demo
-[Click Here](http://sandrakhalek.com/)
+[Click Here](http://sandrakhalek.com/) :point_left:
 
 **Note: The projects has minor bugs that are getting fixed and published soon.**
